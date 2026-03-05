@@ -6,8 +6,9 @@ public class Theatre {
         Actor actor3 = new Actor("Валентин", "Иванов", Gender.MALE, 176);
         Director director1 = new Director("Александр", "Петров", Gender.MALE, 10);
         Director director2 = new Director("Дмитрий", "Харитонов", Gender.MALE, 3);
-        String musicAuthor = "Наталия Гузина";
-        String choreographer = "Тамара Цветкова";
+        Person musicAuthor = new Person("Наталия", "Гузина", Gender.FEMALE);
+        Person choreographer = new Person("Тамара", "Цветкова", Gender.FEMALE);
+
 
         Show storm = new Show("Гроза", 210, director1);
         storm.addNewActor(actor1);
